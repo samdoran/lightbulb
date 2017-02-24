@@ -27,5 +27,7 @@
   service:
     name: "{{ firewall_name }}"
     state: stopped
+    enabled: no
   tags:
     - common
+    - firewall
